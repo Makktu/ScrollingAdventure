@@ -19,3 +19,8 @@ Tweens are the answer for the animation. Now how to check for legal moves?
 Mapping to multi-dimensional arrays is possible, but too fiddly.
 
 Will be looking at a graphical option. I.e. the game only allows movement in a direction if the way is not obstructed.
+
+### One Week Later
+
+Working on a system of transition around a level that I could work with easily and simply. It's tough for me as I'm not that familiar with gdscript. Tempted to start in on full game design before this is done, but I need this to be done and working first.
+

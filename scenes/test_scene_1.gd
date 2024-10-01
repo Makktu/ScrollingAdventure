@@ -7,40 +7,63 @@ extends Control
 @onready var move_timer = $MoveTimer
 
 var current_location = 1
+var level_size = 4 # signifying a 4x4 grid of locations
 
 var input_given = false
 var x_pos = 0
 var y_pos = 0
 
-# ###############################################
-# KEY: Up, Right, Down, Left
-# 0 = no wall - player can pass
-# 1 = wall - player cannot pass
-var rooms = {
-	1: [2,3,4,5],
-	2: [0,1,0,0],
-	3: [0,0,0,1],
-	4: [1,0,0,0],
-	5: [0,1,0,0],
-	6: [0,0,1,1],
-	7: [1,0,0,0]
-}
-# ###############################################
+var no_entry = [5,7,10]
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	
 	if Input.is_action_just_pressed("ui_right") and !input_given:
+		# check not on edge of map
+		if current_location == level_size:
+			print("there is nothing outside the walls")
+			return
+		# check that right is a legal move
+		for n in no_entry:
+			if current_location + 1 == n:
+				print("can't go that way!")
+				return
+		current_location += 1
+		print(current_location)
 		input_given = true
 		move_timer.start()
 		movement(1)
 
 	if Input.is_action_just_pressed("ui_left") and !input_given:
+		# check not on edge of map
+		var check = 1
+		for n in level_size:
+			if current_location == check:
+				print("there is nothing outside the walls")
+				return
+			check + level_size
+		# check that right is a legal move
+		for n in no_entry:
+			if current_location - 1 == n:
+				print("can't go that way!")
+				return
+		current_location -= 1
+		print(current_location)
 		input_given = true
 		move_timer.start()
 		movement(3)
 
 	if Input.is_action_just_pressed("ui_up") and !input_given:
+		# check not on edge of map
+		if current_location > (level_size * level_size) - level_size:
+			print("there is nothing outside the walls")
+			return
+		# check that right is a legal move
+		for n in no_entry:
+			if current_location + level_size == n:
+				print("can't go that way!")
+				return
+		current_location += level_size
 		input_given = true
 		move_timer.start()
 		movement(0)
@@ -55,7 +78,7 @@ func movement(direction = 99):
 	move_camera(direction)
 		
 func move_camera(direction):
-	if direction == null:
+	if direction == 99:
 		print("no direction")
 	var x_dir = 0
 	var y_dir = 0
