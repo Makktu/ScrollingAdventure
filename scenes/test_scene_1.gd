@@ -8,12 +8,13 @@ extends Control
 
 var current_location = 1
 var level_size = 4 # signifying a 4x4 grid of locations
+var no_entry = [5,7,10] # where the player cannot go
+
 
 var input_given = false
 var x_pos = 0
 var y_pos = 0
 
-var no_entry = [5,7,10]
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
