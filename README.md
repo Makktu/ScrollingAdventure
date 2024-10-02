@@ -20,7 +20,7 @@ Mapping to multi-dimensional arrays is possible, but too fiddly.
 
 Will be looking at a graphical option. I.e. the game only allows movement in a direction if the way is not obstructed.
 
-### One Week Later
+### One Week Later - Tues 1 October 2024
 
 Working on a system of transition around a level that I could work with easily and simply. It's tough as I'm not that familiar with gdscript, and mostly winging it. Tempted to start in on full game design before this is done, but I need this to be done and working first.
 
@@ -30,4 +30,6 @@ Successfully modelled this with grids of 4x4, 5x5 and 10x10. It all works. The p
 
 Procedural generation of levels will be possible using this system. Also handmade levels (which is how things will be for the prototype).
 
+### Weds 2 October 2024
 
+Added a new test level to see how it would all work, and it would all work. Added a test enemy and a test Battle UI to see how it would all work, and it would all work. The thing to do now is to design and implement a proper prototype. But is it worth doing?

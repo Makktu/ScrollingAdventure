@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://cidhufn4grrph"]
+
+[node name="battle_ui" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="attack" type="Button" parent="."]
+layout_mode = 0
+offset_left = 297.0
+offset_top = 1154.0
+offset_right = 407.0
+offset_bottom = 1197.0
+text = "ATTACK"
+
+[node name="defend" type="Button" parent="."]
+layout_mode = 0
+offset_left = 142.0
+offset_top = 1154.0
+offset_right = 252.0
+offset_bottom = 1197.0
+text = "DEFEND"
+
+[node name="item" type="Button" parent="."]
+layout_mode = 0
+offset_left = 451.0
+offset_top = 1154.0
+offset_right = 561.0
+offset_bottom = 1197.0
+text = "ITEM"

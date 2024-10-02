@@ -1,0 +1,62 @@
+[gd_scene load_steps=4 format=3 uid="uid://cc1qaa00u0lpj"]
+
+[ext_resource type="Texture2D" uid="uid://ckc8gjrw1iuax" path="res://assets/brownwoodenplanks.png" id="1_doipa"]
+[ext_resource type="Texture2D" uid="uid://cubxl5cmq8vhp" path="res://assets/interface_4_no_effects.png" id="2_y7nqi"]
+[ext_resource type="PackedScene" uid="uid://dosyufowlrtj4" path="res://scenes/enemy_1.tscn" id="2_y23an"]
+
+[node name="test_scene2" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(357.5, 642.5)
+scale = Vector2(1.39648, 2.49805)
+texture = ExtResource("1_doipa")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(1082, 1922)
+scale = Vector2(1.39648, 2.49805)
+texture = ExtResource("1_doipa")
+
+[node name="enemy_1" parent="Sprite2D2" instance=ExtResource("2_y23an")]
+z_index = 10
+
+[node name="Sprite2D10" type="Sprite2D" parent="."]
+position = Vector2(1087, 3204)
+scale = Vector2(1.39648, 2.49805)
+texture = ExtResource("1_doipa")
+
+[node name="Sprite2D7" type="Sprite2D" parent="."]
+position = Vector2(365, 1922)
+scale = Vector2(1.39648, 2.49805)
+texture = ExtResource("1_doipa")
+
+[node name="Sprite2D8" type="Sprite2D" parent="."]
+position = Vector2(1810, 3198)
+scale = Vector2(1.39648, 2.49805)
+texture = ExtResource("1_doipa")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(1079, 643)
+scale = Vector2(1.39648, 2.49805)
+texture = ExtResource("1_doipa")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(358, 638)
+scale = Vector2(0.348144, 0.618896)
+texture = ExtResource("2_y7nqi")
+
+[node name="Sprite2D5" type="Sprite2D" parent="."]
+position = Vector2(1803, 1930)
+scale = Vector2(0.348144, 0.618896)
+texture = ExtResource("2_y7nqi")
+
+[node name="Sprite2D9" type="Sprite2D" parent="."]
+position = Vector2(358, 3196)
+scale = Vector2(0.348144, 0.618896)
+texture = ExtResource("2_y7nqi")
+
+[node name="Sprite2D6" type="Sprite2D" parent="."]
+position = Vector2(1808, 648)
+scale = Vector2(0.348144, 0.618896)
+texture = ExtResource("2_y7nqi")
