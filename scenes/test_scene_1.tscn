@@ -20,10 +20,27 @@ offset_bottom = 2572.0
 color = Color(1, 0.203922, 1, 1)
 
 [node name="ColorRect2" type="ColorRect" parent="Area"]
-offset_left = -3.0
-offset_top = 1295.0
-offset_right = 717.0
-offset_bottom = 2572.0
+z_index = 10
+offset_left = -56.0
+offset_top = 1246.0
+offset_right = 770.0
+offset_bottom = 2609.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 1396.0
+offset_top = 2526.0
+offset_right = 2222.0
+offset_bottom = 3889.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect19" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 1396.0
+offset_top = 1254.0
+offset_right = 2222.0
+offset_bottom = 2617.0
 color = Color(0, 0, 0, 1)
 
 [node name="ColorRect3" type="ColorRect" parent="Area"]
@@ -40,11 +57,32 @@ offset_right = 1438.0
 offset_bottom = 3847.0
 color = Color(0.266667, 1, 0.0431373, 1)
 
+[node name="ColorRect28" type="ColorRect" parent="Area"]
+offset_left = 2901.0
+offset_top = 5050.0
+offset_right = 3621.0
+offset_bottom = 6327.0
+color = Color(0.266667, 1, 0.0431373, 1)
+
 [node name="ColorRect6" type="ColorRect" parent="Area"]
 offset_left = 2165.0
 offset_top = 1295.0
 offset_right = 2885.0
 offset_bottom = 2572.0
+color = Color(0.0745098, 0.101961, 1, 1)
+
+[node name="ColorRect21" type="ColorRect" parent="Area"]
+offset_left = 2902.0
+offset_top = 3861.0
+offset_right = 3622.0
+offset_bottom = 5138.0
+color = Color(0.0745098, 0.101961, 1, 1)
+
+[node name="ColorRect25" type="ColorRect" parent="Area"]
+offset_left = 30.0
+offset_top = 5058.0
+offset_right = 750.0
+offset_bottom = 6335.0
 color = Color(0.0745098, 0.101961, 1, 1)
 
 [node name="ColorRect7" type="ColorRect" parent="Area"]
@@ -61,6 +99,13 @@ offset_right = 2173.0
 offset_bottom = 5119.0
 color = Color(0.878431, 0.054902, 0.415686, 1)
 
+[node name="ColorRect27" type="ColorRect" parent="Area"]
+offset_left = 2181.0
+offset_top = 5039.0
+offset_right = 2901.0
+offset_bottom = 6316.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
 [node name="ColorRect8" type="ColorRect" parent="Area"]
 offset_left = 1441.0
 offset_top = 2564.0
@@ -73,6 +118,22 @@ offset_left = 1441.0
 offset_top = 1286.0
 offset_right = 2161.0
 offset_bottom = 2563.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect24" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 704.0
+offset_top = 5049.0
+offset_right = 1472.0
+offset_bottom = 6326.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect22" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 2867.0
+offset_top = 1248.0
+offset_right = 3616.0
+offset_bottom = 2640.0
 color = Color(0, 0, 0, 1)
 
 [node name="ColorRect14" type="ColorRect" parent="Area"]
@@ -96,11 +157,25 @@ offset_right = 2895.0
 offset_bottom = 5126.0
 color = Color(1, 1, 0.423529, 1)
 
+[node name="ColorRect26" type="ColorRect" parent="Area"]
+offset_left = 1486.0
+offset_top = 5055.0
+offset_right = 2206.0
+offset_bottom = 6332.0
+color = Color(1, 1, 0.423529, 1)
+
 [node name="ColorRect16" type="ColorRect" parent="Area"]
 offset_left = 2165.0
 offset_top = 7.0
 offset_right = 2885.0
 offset_bottom = 1284.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect20" type="ColorRect" parent="Area"]
+offset_left = 2893.0
+offset_top = 2573.0
+offset_right = 3613.0
+offset_bottom = 3850.0
 color = Color(1, 1, 0.423529, 1)
 
 [node name="ColorRect17" type="ColorRect" parent="Area"]
@@ -129,6 +204,616 @@ offset_left = 9.0
 offset_top = 3842.0
 offset_right = 729.0
 offset_bottom = 5119.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
+[node name="ColorRect23" type="ColorRect" parent="Area"]
+offset_left = 2862.0
+offset_top = 12.0
+offset_right = 3582.0
+offset_bottom = 1289.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
+[node name="ColorRect29" type="ColorRect" parent="Area"]
+offset_left = 4305.0
+offset_top = 1295.0
+offset_right = 5025.0
+offset_bottom = 2572.0
+color = Color(1, 0.203922, 1, 1)
+
+[node name="ColorRect30" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 3531.0
+offset_top = 1246.0
+offset_right = 4357.0
+offset_bottom = 2609.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect31" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 4983.0
+offset_top = 2526.0
+offset_right = 5809.0
+offset_bottom = 3889.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect32" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 4983.0
+offset_top = 1254.0
+offset_right = 5809.0
+offset_bottom = 2617.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect33" type="ColorRect" parent="Area"]
+offset_left = 4309.0
+offset_top = 16.0
+offset_right = 5029.0
+offset_bottom = 1293.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect34" type="ColorRect" parent="Area"]
+offset_left = 4305.0
+offset_top = 2570.0
+offset_right = 5025.0
+offset_bottom = 3847.0
+color = Color(0.266667, 1, 0.0431373, 1)
+
+[node name="ColorRect35" type="ColorRect" parent="Area"]
+offset_left = 6488.0
+offset_top = 5050.0
+offset_right = 7208.0
+offset_bottom = 6327.0
+color = Color(0.266667, 1, 0.0431373, 1)
+
+[node name="ColorRect36" type="ColorRect" parent="Area"]
+offset_left = 5752.0
+offset_top = 1295.0
+offset_right = 6472.0
+offset_bottom = 2572.0
+color = Color(0.0745098, 0.101961, 1, 1)
+
+[node name="ColorRect37" type="ColorRect" parent="Area"]
+offset_left = 6489.0
+offset_top = 3861.0
+offset_right = 7209.0
+offset_bottom = 5138.0
+color = Color(0.0745098, 0.101961, 1, 1)
+
+[node name="ColorRect38" type="ColorRect" parent="Area"]
+offset_left = 3617.0
+offset_top = 5058.0
+offset_right = 4337.0
+offset_bottom = 6335.0
+color = Color(0.0745098, 0.101961, 1, 1)
+
+[node name="ColorRect39" type="ColorRect" parent="Area"]
+offset_left = 5758.0
+offset_top = 2573.0
+offset_right = 6478.0
+offset_bottom = 3850.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
+[node name="ColorRect40" type="ColorRect" parent="Area"]
+offset_left = 5040.0
+offset_top = 3842.0
+offset_right = 5760.0
+offset_bottom = 5119.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
+[node name="ColorRect41" type="ColorRect" parent="Area"]
+offset_left = 5768.0
+offset_top = 5039.0
+offset_right = 6488.0
+offset_bottom = 6316.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
+[node name="ColorRect42" type="ColorRect" parent="Area"]
+offset_left = 5028.0
+offset_top = 2564.0
+offset_right = 5748.0
+offset_bottom = 3841.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect43" type="ColorRect" parent="Area"]
+offset_left = 5028.0
+offset_top = 1286.0
+offset_right = 5748.0
+offset_bottom = 2563.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect44" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 4291.0
+offset_top = 5049.0
+offset_right = 5059.0
+offset_bottom = 6326.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect45" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 6454.0
+offset_top = 1248.0
+offset_right = 7203.0
+offset_bottom = 2640.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect46" type="ColorRect" parent="Area"]
+offset_left = 5028.0
+offset_top = 2564.0
+offset_right = 5748.0
+offset_bottom = 3841.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect47" type="ColorRect" parent="Area"]
+offset_left = 3583.0
+offset_top = 2562.0
+offset_right = 4303.0
+offset_bottom = 3839.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect48" type="ColorRect" parent="Area"]
+offset_left = 5762.0
+offset_top = 3849.0
+offset_right = 6482.0
+offset_bottom = 5126.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect49" type="ColorRect" parent="Area"]
+offset_left = 5073.0
+offset_top = 5055.0
+offset_right = 5793.0
+offset_bottom = 6332.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect50" type="ColorRect" parent="Area"]
+offset_left = 5752.0
+offset_top = 7.0
+offset_right = 6472.0
+offset_bottom = 1284.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect51" type="ColorRect" parent="Area"]
+offset_left = 6480.0
+offset_top = 2573.0
+offset_right = 7200.0
+offset_bottom = 3850.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect52" type="ColorRect" parent="Area"]
+offset_left = 4309.0
+offset_top = 3849.0
+offset_right = 5029.0
+offset_bottom = 5126.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect53" type="ColorRect" parent="Area"]
+offset_left = 5031.0
+offset_top = 15.0
+offset_right = 5751.0
+offset_bottom = 1292.0
+color = Color(0.266667, 1, 0.0431373, 1)
+
+[node name="ColorRect54" type="ColorRect" parent="Area"]
+offset_left = 3583.0
+offset_top = 9.0
+offset_right = 4303.0
+offset_bottom = 1286.0
+color = Color(0.0745098, 1, 1, 1)
+
+[node name="ColorRect55" type="ColorRect" parent="Area"]
+offset_left = 3596.0
+offset_top = 3842.0
+offset_right = 4316.0
+offset_bottom = 5119.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
+[node name="ColorRect56" type="ColorRect" parent="Area"]
+offset_left = 6449.0
+offset_top = 12.0
+offset_right = 7169.0
+offset_bottom = 1289.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
+[node name="ColorRect57" type="ColorRect" parent="Area"]
+offset_left = 750.0
+offset_top = 7604.0
+offset_right = 1470.0
+offset_bottom = 8881.0
+color = Color(1, 0.203922, 1, 1)
+
+[node name="ColorRect58" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = -24.0
+offset_top = 7555.0
+offset_right = 802.0
+offset_bottom = 8918.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect59" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 1428.0
+offset_top = 8835.0
+offset_right = 2254.0
+offset_bottom = 10198.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect60" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 1428.0
+offset_top = 7563.0
+offset_right = 2254.0
+offset_bottom = 8926.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect61" type="ColorRect" parent="Area"]
+offset_left = 754.0
+offset_top = 6325.0
+offset_right = 1474.0
+offset_bottom = 7602.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect62" type="ColorRect" parent="Area"]
+offset_left = 750.0
+offset_top = 8879.0
+offset_right = 1470.0
+offset_bottom = 10156.0
+color = Color(0.266667, 1, 0.0431373, 1)
+
+[node name="ColorRect63" type="ColorRect" parent="Area"]
+offset_left = 2933.0
+offset_top = 11359.0
+offset_right = 3653.0
+offset_bottom = 12636.0
+color = Color(0.266667, 1, 0.0431373, 1)
+
+[node name="ColorRect64" type="ColorRect" parent="Area"]
+offset_left = 2197.0
+offset_top = 7604.0
+offset_right = 2917.0
+offset_bottom = 8881.0
+color = Color(0.0745098, 0.101961, 1, 1)
+
+[node name="ColorRect65" type="ColorRect" parent="Area"]
+offset_left = 2934.0
+offset_top = 10170.0
+offset_right = 3654.0
+offset_bottom = 11447.0
+color = Color(0.0745098, 0.101961, 1, 1)
+
+[node name="ColorRect66" type="ColorRect" parent="Area"]
+offset_left = 62.0
+offset_top = 11367.0
+offset_right = 782.0
+offset_bottom = 12644.0
+color = Color(0.0745098, 0.101961, 1, 1)
+
+[node name="ColorRect67" type="ColorRect" parent="Area"]
+offset_left = 2203.0
+offset_top = 8882.0
+offset_right = 2923.0
+offset_bottom = 10159.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
+[node name="ColorRect68" type="ColorRect" parent="Area"]
+offset_left = 1485.0
+offset_top = 10151.0
+offset_right = 2205.0
+offset_bottom = 11428.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
+[node name="ColorRect69" type="ColorRect" parent="Area"]
+offset_left = 2213.0
+offset_top = 11348.0
+offset_right = 2933.0
+offset_bottom = 12625.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
+[node name="ColorRect70" type="ColorRect" parent="Area"]
+offset_left = 1473.0
+offset_top = 8873.0
+offset_right = 2193.0
+offset_bottom = 10150.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect71" type="ColorRect" parent="Area"]
+offset_left = 1473.0
+offset_top = 7595.0
+offset_right = 2193.0
+offset_bottom = 8872.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect72" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 736.0
+offset_top = 11358.0
+offset_right = 1504.0
+offset_bottom = 12635.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect73" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 2899.0
+offset_top = 7557.0
+offset_right = 3648.0
+offset_bottom = 8949.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect74" type="ColorRect" parent="Area"]
+offset_left = 1473.0
+offset_top = 8873.0
+offset_right = 2193.0
+offset_bottom = 10150.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect75" type="ColorRect" parent="Area"]
+offset_left = 28.0
+offset_top = 8871.0
+offset_right = 748.0
+offset_bottom = 10148.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect76" type="ColorRect" parent="Area"]
+offset_left = 2207.0
+offset_top = 10158.0
+offset_right = 2927.0
+offset_bottom = 11435.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect77" type="ColorRect" parent="Area"]
+offset_left = 1518.0
+offset_top = 11364.0
+offset_right = 2238.0
+offset_bottom = 12641.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect78" type="ColorRect" parent="Area"]
+offset_left = 2197.0
+offset_top = 6316.0
+offset_right = 2917.0
+offset_bottom = 7593.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect79" type="ColorRect" parent="Area"]
+offset_left = 2925.0
+offset_top = 8882.0
+offset_right = 3645.0
+offset_bottom = 10159.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect80" type="ColorRect" parent="Area"]
+offset_left = 754.0
+offset_top = 10158.0
+offset_right = 1474.0
+offset_bottom = 11435.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect81" type="ColorRect" parent="Area"]
+offset_left = 1476.0
+offset_top = 6324.0
+offset_right = 2196.0
+offset_bottom = 7601.0
+color = Color(0.266667, 1, 0.0431373, 1)
+
+[node name="ColorRect82" type="ColorRect" parent="Area"]
+offset_left = 28.0
+offset_top = 6318.0
+offset_right = 748.0
+offset_bottom = 7595.0
+color = Color(0.0745098, 1, 1, 1)
+
+[node name="ColorRect83" type="ColorRect" parent="Area"]
+offset_left = 41.0
+offset_top = 10151.0
+offset_right = 761.0
+offset_bottom = 11428.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
+[node name="ColorRect84" type="ColorRect" parent="Area"]
+offset_left = 2894.0
+offset_top = 6321.0
+offset_right = 3614.0
+offset_bottom = 7598.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
+[node name="ColorRect85" type="ColorRect" parent="Area"]
+offset_left = 4337.0
+offset_top = 7604.0
+offset_right = 5057.0
+offset_bottom = 8881.0
+color = Color(1, 0.203922, 1, 1)
+
+[node name="ColorRect86" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 3563.0
+offset_top = 7555.0
+offset_right = 4389.0
+offset_bottom = 8918.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect87" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 5015.0
+offset_top = 8835.0
+offset_right = 5841.0
+offset_bottom = 10198.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect88" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 5015.0
+offset_top = 7563.0
+offset_right = 5841.0
+offset_bottom = 8926.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect89" type="ColorRect" parent="Area"]
+offset_left = 4341.0
+offset_top = 6325.0
+offset_right = 5061.0
+offset_bottom = 7602.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect90" type="ColorRect" parent="Area"]
+offset_left = 4337.0
+offset_top = 8879.0
+offset_right = 5057.0
+offset_bottom = 10156.0
+color = Color(0.266667, 1, 0.0431373, 1)
+
+[node name="ColorRect91" type="ColorRect" parent="Area"]
+offset_left = 6520.0
+offset_top = 11359.0
+offset_right = 7240.0
+offset_bottom = 12636.0
+color = Color(0.266667, 1, 0.0431373, 1)
+
+[node name="ColorRect92" type="ColorRect" parent="Area"]
+offset_left = 5784.0
+offset_top = 7604.0
+offset_right = 6504.0
+offset_bottom = 8881.0
+color = Color(0.0745098, 0.101961, 1, 1)
+
+[node name="ColorRect93" type="ColorRect" parent="Area"]
+offset_left = 6521.0
+offset_top = 10170.0
+offset_right = 7241.0
+offset_bottom = 11447.0
+color = Color(0.0745098, 0.101961, 1, 1)
+
+[node name="ColorRect94" type="ColorRect" parent="Area"]
+offset_left = 3649.0
+offset_top = 11367.0
+offset_right = 4369.0
+offset_bottom = 12644.0
+color = Color(0.0745098, 0.101961, 1, 1)
+
+[node name="ColorRect95" type="ColorRect" parent="Area"]
+offset_left = 5790.0
+offset_top = 8882.0
+offset_right = 6510.0
+offset_bottom = 10159.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
+[node name="ColorRect96" type="ColorRect" parent="Area"]
+offset_left = 5072.0
+offset_top = 10151.0
+offset_right = 5792.0
+offset_bottom = 11428.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
+[node name="ColorRect97" type="ColorRect" parent="Area"]
+offset_left = 5800.0
+offset_top = 11348.0
+offset_right = 6520.0
+offset_bottom = 12625.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
+[node name="ColorRect98" type="ColorRect" parent="Area"]
+offset_left = 5060.0
+offset_top = 8873.0
+offset_right = 5780.0
+offset_bottom = 10150.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect99" type="ColorRect" parent="Area"]
+offset_left = 5060.0
+offset_top = 7595.0
+offset_right = 5780.0
+offset_bottom = 8872.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect100" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 4323.0
+offset_top = 11358.0
+offset_right = 5091.0
+offset_bottom = 12635.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect101" type="ColorRect" parent="Area"]
+z_index = 10
+offset_left = 6486.0
+offset_top = 7557.0
+offset_right = 7235.0
+offset_bottom = 8949.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect102" type="ColorRect" parent="Area"]
+offset_left = 5060.0
+offset_top = 8873.0
+offset_right = 5780.0
+offset_bottom = 10150.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect103" type="ColorRect" parent="Area"]
+offset_left = 3615.0
+offset_top = 8871.0
+offset_right = 4335.0
+offset_bottom = 10148.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect104" type="ColorRect" parent="Area"]
+offset_left = 5794.0
+offset_top = 10158.0
+offset_right = 6514.0
+offset_bottom = 11435.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect105" type="ColorRect" parent="Area"]
+offset_left = 5105.0
+offset_top = 11364.0
+offset_right = 5825.0
+offset_bottom = 12641.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect106" type="ColorRect" parent="Area"]
+offset_left = 5784.0
+offset_top = 6316.0
+offset_right = 6504.0
+offset_bottom = 7593.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect107" type="ColorRect" parent="Area"]
+offset_left = 6512.0
+offset_top = 8882.0
+offset_right = 7232.0
+offset_bottom = 10159.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect108" type="ColorRect" parent="Area"]
+offset_left = 4341.0
+offset_top = 10158.0
+offset_right = 5061.0
+offset_bottom = 11435.0
+color = Color(1, 1, 0.423529, 1)
+
+[node name="ColorRect109" type="ColorRect" parent="Area"]
+offset_left = 5063.0
+offset_top = 6324.0
+offset_right = 5783.0
+offset_bottom = 7601.0
+color = Color(0.266667, 1, 0.0431373, 1)
+
+[node name="ColorRect110" type="ColorRect" parent="Area"]
+offset_left = 3615.0
+offset_top = 6318.0
+offset_right = 4335.0
+offset_bottom = 7595.0
+color = Color(0.0745098, 1, 1, 1)
+
+[node name="ColorRect111" type="ColorRect" parent="Area"]
+offset_left = 3628.0
+offset_top = 10151.0
+offset_right = 4348.0
+offset_bottom = 11428.0
+color = Color(0.878431, 0.054902, 0.415686, 1)
+
+[node name="ColorRect112" type="ColorRect" parent="Area"]
+offset_left = 6481.0
+offset_top = 6321.0
+offset_right = 7201.0
+offset_bottom = 7598.0
 color = Color(0.878431, 0.054902, 0.415686, 1)
 
 [node name="MoveTimer" type="Timer" parent="."]

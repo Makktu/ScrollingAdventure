@@ -22,5 +22,12 @@ Will be looking at a graphical option. I.e. the game only allows movement in a d
 
 ### One Week Later
 
-Working on a system of transition around a level that I could work with easily and simply. It's tough for me as I'm not that familiar with gdscript. Tempted to start in on full game design before this is done, but I need this to be done and working first.
+Working on a system of transition around a level that I could work with easily and simply. It's tough as I'm not that familiar with gdscript, and mostly winging it. Tempted to start in on full game design before this is done, but I need this to be done and working first.
+
+(Later that same night...)
+
+Successfully modelled this with grids of 4x4, 5x5 and 10x10. It all works. The player can 'swipe' around but not go out of the map boundary, and not enter designated squares.
+
+Procedural generation of levels will be possible using this system. Also handmade levels (which is how things will be for the prototype).
+
 
