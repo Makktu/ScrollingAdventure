@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://c0v8s4tpwr4s7"]
+[gd_scene load_steps=6 format=3 uid="uid://c0v8s4tpwr4s7"]
 
 [ext_resource type="Script" path="res://scenes/test_scene_1.gd" id="1_uyphl"]
 [ext_resource type="PackedScene" uid="uid://cc1qaa00u0lpj" path="res://scenes/test_scene_2.tscn" id="2_i8km2"]
 [ext_resource type="AudioStream" uid="uid://dyhxoxbhsbkip" path="res://assets/dread castle.ogg" id="3_d6ioe"]
 [ext_resource type="PackedScene" uid="uid://cidhufn4grrph" path="res://scenes/battle_ui.tscn" id="4_fwprw"]
+[ext_resource type="PackedScene" uid="uid://cmn6usan1f15i" path="res://scenes/main_ui.tscn" id="5_swf23"]
 
 [node name="TestScene1" type="Control"]
 layout_mode = 3
@@ -833,4 +834,11 @@ autoplay = true
 [node name="battle_ui" parent="." instance=ExtResource("4_fwprw")]
 visible = false
 
+[node name="main_ui" parent="." instance=ExtResource("5_swf23")]
+
+[node name="ShowBattleUITimer" type="Timer" parent="."]
+wait_time = 1.5
+one_shot = true
+
 [connection signal="timeout" from="MoveTimer" to="." method="_on_move_timer_timeout"]
+[connection signal="timeout" from="ShowBattleUITimer" to="." method="_on_show_battle_ui_timer_timeout"]

@@ -33,3 +33,7 @@ Procedural generation of levels will be possible using this system. Also handmad
 ### Weds 2 October 2024
 
 Added a new test level to see how it would all work, and it would all work. Added a test enemy and a test Battle UI to see how it would all work, and it would all work. The thing to do now is to design and implement a proper prototype. But is it worth doing?
+
+### Thurs 3 October 2024
+
+Doing something on this every day. Today added core UI elements (basic display of player Location in a 'main ui' node, and a conditional display of a 'battle ui' depending on enemy presence. Toyed with beginnings of room borders. Also implemented a different method of tracking player whereabouts and controlling where can go, etc. This way there are no 'empty cells' in the mapping.

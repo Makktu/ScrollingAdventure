@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://cmn6usan1f15i"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_c635o"]
+bg_color = Color(0.00492004, 0.00346057, 0.000124547, 1)
+
+[node name="main_ui" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 451.0
+offset_top = 1154.0
+offset_right = 491.0
+offset_bottom = 1194.0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = -437.0
+offset_top = -1136.0
+offset_right = -275.0
+offset_bottom = -1054.0
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_c635o")
+text = "Floor: 1"
