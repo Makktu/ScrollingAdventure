@@ -37,3 +37,9 @@ Added a new test level to see how it would all work, and it would all work. Adde
 ### Thurs 3 October 2024
 
 Doing something on this every day. Today added core UI elements (basic display of player Location in a 'main ui' node, and a conditional display of a 'battle ui' depending on enemy presence. Toyed with beginnings of room borders. Also implemented a different method of tracking player whereabouts and controlling where can go, etc. This way there are no 'empty cells' in the mapping.
+
+### Fri 4 October 2024
+
+Attempting to add Tilesets as backgrounds for the rooms in the levels, but so far they don't look or feel right. The backgrounds need to be 'full-screen impactful'.
+
+Reflection needed.
