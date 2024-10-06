@@ -16,7 +16,7 @@ var current_location = 1 # starting square
 
 var battle_ui_showing = false
 
-var level_size = 3 # signifying a 4x4 grid of locations
+var level_size = 4 # signifying a 4x4 grid of locations
 # ==========================================================================
 #var no_entry_1 = [11,13,15,16,18,20,23,28,42,47,61,63,65,66,68,70,73,78,92,97]
 var no_entry_1 = [4,6]
@@ -30,7 +30,7 @@ var allowed_moves = [
 	[0,0,1,0],
 	[1,1,0,0],
 	[1,1,0,1],
-	[1,0,0,1],
+	[1,1,0,1],
 ]
 
 # where the player cannot go================================================

@@ -43,3 +43,9 @@ Doing something on this every day. Today added core UI elements (basic display o
 Attempting to add Tilesets as backgrounds for the rooms in the levels, but so far they don't look or feel right. The backgrounds need to be 'full-screen impactful'.
 
 Reflection needed.
+
+### Sat 5 October 2024
+
+Another go at backgrounds, this time with a 256x256 tileset. Results: jank. A rollover again. This will have to be resolved sharpish.
+
+I did spend a few hours today working on design aspects in general. E.g. the Alpha version will be a 4x4 grid. Also, the battle system will be a separate system attached to the movement and environments, etc.
