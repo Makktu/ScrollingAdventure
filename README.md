@@ -49,3 +49,13 @@ Reflection needed.
 Another go at backgrounds, this time with a 256x256 tileset. Results: jank. A rollover again. This will have to be resolved sharpish.
 
 I did spend a few hours today working on design aspects in general. E.g. the Alpha version will be a 4x4 grid. Also, the battle system will be a separate system attached to the movement and environments, etc.
+
+### Sun 6 October
+
+Experimenting with a movement 'jitter'. Not good so far. This whole project needs a hefty kick up the backside.
+
+### Mon 7 October
+
+Aim for today:
+-implement the design from Saturday.
+-get some type of Alpha-level background(s) into the environments.
