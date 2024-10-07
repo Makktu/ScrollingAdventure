@@ -59,3 +59,14 @@ Experimenting with a movement 'jitter'. Not good so far. This whole project need
 Aim for today:
 -implement the design from Saturday.
 -get some type of Alpha-level background(s) into the environments.
+
+Accomplished today's aims, albeit in very first-draft form.
+
+The way to go will be line drawings for me. Tilesets are not going to work. I can use custom sprites for locations and enemies. 
+
+All in all it's starting to remind me of Atic Atac on the Spectrum, circa 1984 or so.
+
+### Tues 8 October
+
+-Get all environments up and running.
+-Start work on battle screen and system.

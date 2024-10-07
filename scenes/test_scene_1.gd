@@ -22,16 +22,23 @@ var level_size = 4 # signifying a 4x4 grid of locations
 var no_entry_1 = [4,6]
 
 var allowed_moves = [
-	[0,1,0,0],
+	[0,1,0,0,0,0],
 	[0,1,1,1],
+	[0,1,0,1],
+	[0,0,1,1],
+	[0,0,1,0],
+	[1,1,1,0],
 	[0,0,0,1],
-	[0,0,1,0],
-	[1,0,1,0],
-	[0,0,1,0],
+	[1,0,0,0],
 	[1,1,0,0],
+	[1,1,1,1],
+	[0,1,0,1],
+	[0,0,0,1],
+	[0,1,0,0],
 	[1,1,0,1],
-	[1,1,0,1],
-]
+	[0,1,0,1],
+	[0,0,0,1],
+		]
 
 # where the player cannot go================================================
 
@@ -120,18 +127,18 @@ func move_camera(direction):
 	# move the world
 	var tween = create_tween()
 	tween.tween_property(this_area, "position", Vector2(x_pos, y_pos), 0.45)
-	x_dir = 0
-	y_dir = 0
-	if direction == 0:
-		y_dir = -10
-	if direction == 1:
-		x_dir = 10
-	if direction == 2:
-		y_dir = 10
-	if direction == 3:
-		x_dir = -10
-	tween.tween_property(this_area, "position", Vector2(x_pos + x_dir, y_pos + y_dir), 0.15)
-	tween.tween_property(this_area, "position", Vector2(x_pos + -x_dir, y_pos + -y_dir), 0.05)
+	#x_dir = 0
+	#y_dir = 0
+	#if direction == 0:
+		#y_dir = -10
+	#if direction == 1:
+		#x_dir = 10
+	#if direction == 2:
+		#y_dir = 10
+	#if direction == 3:
+		#x_dir = -10
+	#tween.tween_property(this_area, "position", Vector2(x_pos + x_dir, y_pos + y_dir), 0.075)
+	#tween.tween_property(this_area, "position", Vector2(x_pos + -x_dir, y_pos + -y_dir), 0.025)
 
 
 func _on_move_timer_timeout():
