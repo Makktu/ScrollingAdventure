@@ -57,8 +57,8 @@ Experimenting with a movement 'jitter'. Not good so far. This whole project need
 ### Mon 7 October
 
 Aim for today:
--implement the design from Saturday.
--get some type of Alpha-level background(s) into the environments.
+- implement the design from Saturday.
+- get some type of Alpha-level background(s) into the environments.
 
 Accomplished today's aims, albeit in very first-draft form.
 
@@ -68,5 +68,17 @@ All in all it's starting to remind me of Atic Atac on the Spectrum, circa 1984 o
 
 ### Tues 8 October
 
--Get all environments up and running.
--Start work on battle screen and system.
+- Get all environments up and running.
+- Start work on battle screen and system.
+
+Environments added, albeit barely a working setup. A rough sketch, and I should be much farther along at this stage.
+
+Battle system scene(s) set up - again, though, just an initial setup.
+
+GAME DESIGN needed before anything deeper.
+
+### Weds 9 October
+
+- Tidy up the environments. Improve the 'sketch' at least.
+- Add screen jiggle when player tries to move in blocked direction. Add warning message when they try to do it twice. Add exasperated message if they try a third time in a row. "You won't be told again."
+- Start proper game design thinking about the battle system.

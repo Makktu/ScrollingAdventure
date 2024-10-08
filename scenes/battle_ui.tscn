@@ -1,8 +1,11 @@
-[gd_scene format=3 uid="uid://cidhufn4grrph"]
+[gd_scene load_steps=2 format=3 uid="uid://cidhufn4grrph"]
+
+[ext_resource type="Script" path="res://scripts/battle_ui.gd" id="1_i0qfl"]
 
 [node name="battle_ui" type="Control"]
 layout_mode = 3
 anchors_preset = 0
+script = ExtResource("1_i0qfl")
 
 [node name="battle_buttons" type="Node2D" parent="."]
 
@@ -26,3 +29,5 @@ offset_top = 1154.0
 offset_right = 561.0
 offset_bottom = 1197.0
 text = "ITEM"
+
+[connection signal="pressed" from="battle_buttons/attack" to="." method="_on_attack_pressed"]

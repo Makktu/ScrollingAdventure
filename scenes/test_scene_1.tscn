@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://c0v8s4tpwr4s7"]
 
-[ext_resource type="Script" path="res://scenes/test_scene_1.gd" id="1_uyphl"]
+[ext_resource type="Script" path="res://scripts/test_scene_1.gd" id="1_uyphl"]
 [ext_resource type="PackedScene" uid="uid://cc1qaa00u0lpj" path="res://scenes/test_scene_2.tscn" id="2_i8km2"]
 [ext_resource type="AudioStream" uid="uid://dyhxoxbhsbkip" path="res://assets/dread castle.ogg" id="3_d6ioe"]
 [ext_resource type="PackedScene" uid="uid://cidhufn4grrph" path="res://scenes/battle_ui.tscn" id="4_fwprw"]
@@ -821,7 +821,6 @@ offset_bottom = 7598.0
 color = Color(0.878431, 0.054902, 0.415686, 1)
 
 [node name="test_scene2" parent="." instance=ExtResource("2_i8km2")]
-visible = false
 
 [node name="MoveTimer" type="Timer" parent="."]
 wait_time = 0.5

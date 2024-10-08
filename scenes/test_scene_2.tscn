@@ -1,10 +1,17 @@
-[gd_scene load_steps=6 format=3 uid="uid://cc1qaa00u0lpj"]
+[gd_scene load_steps=13 format=3 uid="uid://cc1qaa00u0lpj"]
 
 [ext_resource type="Texture2D" uid="uid://dwi8d5vc4m0to" path="res://assets/environment/0100.png" id="1_30a8e"]
+[ext_resource type="Texture2D" uid="uid://cwmrp06j3bf60" path="res://assets/environment/0111.png" id="2_e4kac"]
 [ext_resource type="PackedScene" uid="uid://dosyufowlrtj4" path="res://scenes/enemy_1.tscn" id="2_y23an"]
+[ext_resource type="Texture2D" uid="uid://ckmltojr8fs7r" path="res://assets/environment/0011.png" id="4_mwgcs"]
+[ext_resource type="Texture2D" uid="uid://8ognsukemi2j" path="res://assets/environment/0010.png" id="5_xlwog"]
 [ext_resource type="Texture2D" uid="uid://dll30lmnm7iqq" path="res://assets/environment/1000.png" id="5_y4a16"]
+[ext_resource type="Texture2D" uid="uid://bscg5844h7yhf" path="res://assets/environment/1110.png" id="6_utits"]
 [ext_resource type="Texture2D" uid="uid://pogdjouatdb6" path="res://assets/environment/0101.png" id="7_pkatc"]
 [ext_resource type="Texture2D" uid="uid://dwhdsjngbnywk" path="res://assets/environment/0001.png" id="8_jri56"]
+[ext_resource type="Texture2D" uid="uid://o3l8ut0mc3it" path="res://assets/environment/1100.png" id="10_5vs5t"]
+[ext_resource type="Texture2D" uid="uid://dpul80aafns8b" path="res://assets/environment/1111.png" id="11_74ekx"]
+[ext_resource type="Texture2D" uid="uid://ckwpqg6pi88ht" path="res://assets/environment/1101.png" id="12_70g80"]
 
 [node name="test_scene2" type="Control"]
 layout_mode = 3
@@ -14,68 +21,83 @@ anchors_preset = 0
 
 [node name="loc_1" type="Sprite2D" parent="locations"]
 position = Vector2(360.5, 642.5)
-scale = Vector2(1.01806, 0.986719)
+scale = Vector2(0.8, 0.8)
 texture = ExtResource("1_30a8e")
 
 [node name="loc_2" type="Sprite2D" parent="locations"]
 position = Vector2(1079, 643)
-texture = ExtResource("5_y4a16")
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("2_e4kac")
 
 [node name="loc_3" type="Sprite2D" parent="locations"]
 position = Vector2(1808, 648)
+scale = Vector2(0.8, 0.8)
 texture = ExtResource("7_pkatc")
 
 [node name="loc_4" type="Sprite2D" parent="locations"]
 position = Vector2(2550.5, 647.75)
-texture = ExtResource("8_jri56")
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("4_mwgcs")
 
 [node name="loc_5" type="Sprite2D" parent="locations"]
 position = Vector2(361, 1921)
-scale = Vector2(1.01806, 0.986719)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("5_xlwog")
 
 [node name="loc_6" type="Sprite2D" parent="locations"]
 position = Vector2(1082, 1909)
-scale = Vector2(1.39648, 2.49805)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("6_utits")
 
 [node name="enemy_1" parent="locations/loc_6" instance=ExtResource("2_y23an")]
 z_index = 10
 
 [node name="loc_7" type="Sprite2D" parent="locations"]
 position = Vector2(1796, 1921)
-scale = Vector2(1.01806, 0.986719)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("8_jri56")
 
 [node name="loc_8" type="Sprite2D" parent="locations"]
 position = Vector2(2538.5, 1920.75)
-scale = Vector2(1.01806, 0.986719)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("5_y4a16")
 
 [node name="loc_9" type="Sprite2D" parent="locations"]
 position = Vector2(358, 3196)
-scale = Vector2(0.348144, 0.618896)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("10_5vs5t")
 
 [node name="loc_10" type="Sprite2D" parent="locations"]
 position = Vector2(1087, 3204)
-scale = Vector2(1.39648, 2.49805)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("11_74ekx")
 
 [node name="loc_11" type="Sprite2D" parent="locations"]
 position = Vector2(1810, 3198)
-scale = Vector2(1.39648, 2.49805)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("7_pkatc")
 
 [node name="loc_12" type="Sprite2D" parent="locations"]
 position = Vector2(2552.5, 3197.75)
-scale = Vector2(1.39648, 2.49805)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("8_jri56")
 
 [node name="loc_13" type="Sprite2D" parent="locations"]
 position = Vector2(381.499, 4492.75)
-scale = Vector2(0.348144, 0.618896)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("1_30a8e")
 
 [node name="loc_14" type="Sprite2D" parent="locations"]
 position = Vector2(1110.5, 4500.75)
-scale = Vector2(1.39648, 2.49805)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("12_70g80")
 
 [node name="loc_15" type="Sprite2D" parent="locations"]
 position = Vector2(1833.5, 4494.75)
-scale = Vector2(1.39648, 2.49805)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("7_pkatc")
 
 [node name="loc_16" type="Sprite2D" parent="locations"]
 position = Vector2(2576, 4494.5)
-scale = Vector2(1.39648, 2.49805)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("8_jri56")

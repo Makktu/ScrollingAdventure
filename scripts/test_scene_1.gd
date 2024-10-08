@@ -56,15 +56,15 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta):
 	
-	if current_location == 5 and not battle_ui_showing:
+	if current_location == 6 and not battle_ui_showing:
 		battle_ui_showing = true
 		show_battle_ui_timer.start()
 	
-	if battle_ui_showing and current_location != 5:
+	if battle_ui_showing and current_location != 6:
 		battle_ui.visible = false
 		battle_ui_showing = false
 	
-	if Input.is_action_just_pressed("ui_right") and !input_given:
+	if Input.is_action_just_pressed("ui_right") and !input_given and !battle_ui_showing:
 		if allowed_moves[current_location - 1][1] == 0:
 				print("can't go that way!")
 				return
@@ -74,7 +74,7 @@ func _process(_delta):
 		move_timer.start()
 		movement(1)
 
-	if Input.is_action_just_pressed("ui_left") and !input_given:
+	if Input.is_action_just_pressed("ui_left") and !input_given and !battle_ui_showing:
 		if allowed_moves[current_location - 1][3] == 0:
 				print("can't go that way!")
 				return
@@ -84,7 +84,7 @@ func _process(_delta):
 		move_timer.start()
 		movement(3)
 
-	if Input.is_action_just_pressed("ui_up") and !input_given:
+	if Input.is_action_just_pressed("ui_up") and !input_given and !battle_ui_showing:
 		if allowed_moves[current_location - 1][2] == 0:
 				print("can't go that way!")
 				return
@@ -94,7 +94,7 @@ func _process(_delta):
 		move_timer.start()
 		movement(0)
 
-	if Input.is_action_just_pressed("ui_down") and !input_given:
+	if Input.is_action_just_pressed("ui_down") and !input_given and !battle_ui_showing:
 		if allowed_moves[current_location - 1][0] == 0:
 				print("can't go that way!")
 				return
