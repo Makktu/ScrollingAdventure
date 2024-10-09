@@ -21,32 +21,26 @@ anchors_preset = 0
 
 [node name="loc_1" type="Sprite2D" parent="locations"]
 position = Vector2(360.5, 642.5)
-scale = Vector2(0.8, 0.8)
 texture = ExtResource("1_30a8e")
 
 [node name="loc_2" type="Sprite2D" parent="locations"]
 position = Vector2(1079, 643)
-scale = Vector2(0.8, 0.8)
 texture = ExtResource("2_e4kac")
 
 [node name="loc_3" type="Sprite2D" parent="locations"]
 position = Vector2(1808, 648)
-scale = Vector2(0.8, 0.8)
 texture = ExtResource("7_pkatc")
 
 [node name="loc_4" type="Sprite2D" parent="locations"]
 position = Vector2(2550.5, 647.75)
-scale = Vector2(0.8, 0.8)
 texture = ExtResource("4_mwgcs")
 
 [node name="loc_5" type="Sprite2D" parent="locations"]
 position = Vector2(361, 1921)
-scale = Vector2(0.8, 0.8)
 texture = ExtResource("5_xlwog")
 
 [node name="loc_6" type="Sprite2D" parent="locations"]
 position = Vector2(1082, 1909)
-scale = Vector2(0.8, 0.8)
 texture = ExtResource("6_utits")
 
 [node name="enemy_1" parent="locations/loc_6" instance=ExtResource("2_y23an")]
@@ -54,50 +48,40 @@ z_index = 10
 
 [node name="loc_7" type="Sprite2D" parent="locations"]
 position = Vector2(1796, 1921)
-scale = Vector2(0.8, 0.8)
 texture = ExtResource("8_jri56")
 
 [node name="loc_8" type="Sprite2D" parent="locations"]
 position = Vector2(2538.5, 1920.75)
-scale = Vector2(0.8, 0.8)
 texture = ExtResource("5_y4a16")
 
 [node name="loc_9" type="Sprite2D" parent="locations"]
 position = Vector2(358, 3196)
-scale = Vector2(0.8, 0.8)
 texture = ExtResource("10_5vs5t")
 
 [node name="loc_10" type="Sprite2D" parent="locations"]
 position = Vector2(1087, 3204)
-scale = Vector2(0.8, 0.8)
 texture = ExtResource("11_74ekx")
 
 [node name="loc_11" type="Sprite2D" parent="locations"]
 position = Vector2(1810, 3198)
-scale = Vector2(0.8, 0.8)
 texture = ExtResource("7_pkatc")
 
 [node name="loc_12" type="Sprite2D" parent="locations"]
 position = Vector2(2552.5, 3197.75)
-scale = Vector2(0.8, 0.8)
 texture = ExtResource("8_jri56")
 
 [node name="loc_13" type="Sprite2D" parent="locations"]
 position = Vector2(381.499, 4492.75)
-scale = Vector2(0.8, 0.8)
 texture = ExtResource("1_30a8e")
 
 [node name="loc_14" type="Sprite2D" parent="locations"]
 position = Vector2(1110.5, 4500.75)
-scale = Vector2(0.8, 0.8)
 texture = ExtResource("12_70g80")
 
 [node name="loc_15" type="Sprite2D" parent="locations"]
 position = Vector2(1833.5, 4494.75)
-scale = Vector2(0.8, 0.8)
 texture = ExtResource("7_pkatc")
 
 [node name="loc_16" type="Sprite2D" parent="locations"]
 position = Vector2(2576, 4494.5)
-scale = Vector2(0.8, 0.8)
 texture = ExtResource("8_jri56")

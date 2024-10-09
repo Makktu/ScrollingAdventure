@@ -82,3 +82,12 @@ GAME DESIGN needed before anything deeper.
 - Tidy up the environments. Improve the 'sketch' at least.
 - Add screen jiggle when player tries to move in blocked direction. Add warning message when they try to do it twice. Add exasperated message if they try a third time in a row. "You won't be told again."
 - Start proper game design thinking about the battle system.
+
+Working on improving the environments, although the danger now is doing too much. Have acquired some promising assets. No other progress.
+
+### Thu 10 October
+
+- Add minimal environments (just proper walls for now).
+- Add screen jiggle not doine yesterday.
+- Watch Turn Based Battle tutorial.
+
