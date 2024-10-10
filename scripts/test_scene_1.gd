@@ -66,8 +66,8 @@ func _process(_delta):
 	
 	if Input.is_action_just_pressed("ui_right") and !input_given and !battle_ui_showing:
 		if allowed_moves[current_location - 1][1] == 0:
-				print("can't go that way!")
-				return
+			illegal_move(1)
+			return
 		current_location += 1
 		print(current_location)
 		input_given = true
@@ -76,8 +76,8 @@ func _process(_delta):
 
 	if Input.is_action_just_pressed("ui_left") and !input_given and !battle_ui_showing:
 		if allowed_moves[current_location - 1][3] == 0:
-				print("can't go that way!")
-				return
+			illegal_move(3)
+			return
 		current_location -= 1
 		print(current_location)
 		input_given = true
@@ -86,8 +86,8 @@ func _process(_delta):
 
 	if Input.is_action_just_pressed("ui_up") and !input_given and !battle_ui_showing:
 		if allowed_moves[current_location - 1][2] == 0:
-				print("can't go that way!")
-				return
+			illegal_move(0)
+			return
 		current_location += level_size
 		print(current_location)
 		input_given = true
@@ -96,8 +96,8 @@ func _process(_delta):
 
 	if Input.is_action_just_pressed("ui_down") and !input_given and !battle_ui_showing:
 		if allowed_moves[current_location - 1][0] == 0:
-				print("can't go that way!")
-				return
+			illegal_move(2)
+			return
 		current_location += -level_size
 		print(current_location)
 		input_given = true
@@ -127,18 +127,22 @@ func move_camera(direction):
 	# move the world
 	var tween = create_tween()
 	tween.tween_property(this_area, "position", Vector2(x_pos, y_pos), 0.45)
-	#x_dir = 0
-	#y_dir = 0
-	#if direction == 0:
-		#y_dir = -10
-	#if direction == 1:
-		#x_dir = 10
-	#if direction == 2:
-		#y_dir = 10
-	#if direction == 3:
-		#x_dir = -10
-	#tween.tween_property(this_area, "position", Vector2(x_pos + x_dir, y_pos + y_dir), 0.075)
-	#tween.tween_property(this_area, "position", Vector2(x_pos + -x_dir, y_pos + -y_dir), 0.025)
+	print("x:", x_pos, "y:", y_pos)
+	
+func illegal_move(direction):
+	var shake_dir_y = 0
+	var shake_dir_x = 0
+	if direction == 0 or direction == 2:
+		shake_dir_y = 3
+	if direction == 1 or direction == 3:
+		shake_dir_x = 3
+	print('no way through')
+	var tween = create_tween()
+	tween.tween_property(this_area, "position", Vector2(x_pos + shake_dir_x, y_pos + shake_dir_y), 0.075)
+	tween.tween_property(this_area, "position", Vector2((x_pos + -shake_dir_x), y_pos + -shake_dir_y), 0.075)
+	tween.tween_property(this_area, "position", Vector2(x_pos, y_pos), 0.075)
+	
+	
 
 
 func _on_move_timer_timeout():

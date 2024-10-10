@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/test_scene_1.gd" id="1_uyphl"]
 [ext_resource type="PackedScene" uid="uid://cc1qaa00u0lpj" path="res://scenes/test_scene_2.tscn" id="2_i8km2"]
-[ext_resource type="AudioStream" uid="uid://dyhxoxbhsbkip" path="res://assets/dread castle.ogg" id="3_d6ioe"]
+[ext_resource type="AudioStream" uid="uid://de2rcwkosnh8f" path="res://assets/dungeon_ambient_1.ogg" id="3_im1it"]
 [ext_resource type="PackedScene" uid="uid://cidhufn4grrph" path="res://scenes/battle_ui.tscn" id="4_fwprw"]
 [ext_resource type="PackedScene" uid="uid://cmn6usan1f15i" path="res://scenes/main_ui.tscn" id="5_swf23"]
 
@@ -827,7 +827,7 @@ wait_time = 0.5
 one_shot = true
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("3_d6ioe")
+stream = ExtResource("3_im1it")
 autoplay = true
 
 [node name="battle_ui" parent="." instance=ExtResource("4_fwprw")]

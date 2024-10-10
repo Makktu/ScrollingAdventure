@@ -88,6 +88,12 @@ Working on improving the environments, although the danger now is doing too much
 ### Thu 10 October
 
 - Add minimal environments (just proper walls for now).
-- Add screen jiggle not doine yesterday.
+- Add screen jiggle not done yesterday.
 - Watch Turn Based Battle tutorial.
 
+Added screen jiggle when moving to blocked area.
+
+### Fri 11 October
+
+- Watch Turn Based Battle tutorial.
+- Create environments fully (walls, floors).
