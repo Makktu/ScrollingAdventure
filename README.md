@@ -95,5 +95,6 @@ Added screen jiggle when moving to blocked area.
 
 ### Fri 11 October
 
-- Watch Turn Based Battle tutorial.
-- Create environments fully (walls, floors).
+Environments are the most important creation at this stage.
+- Schedule & work on environments.
+- Schedule that Turn-Based Battle tut & code-along.
